@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(26, 25, 25);
+}
+.title{
+    margin: 10px 20px;
+    color: white;
+}
+
+.thumbnail_wrapper{
+    margin: 5px 20px;
+    padding: 5px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,56 @@
+.videodetail{
+    display: flex;
+}
+.products_wrapper{
+    height: 100vh;
+    min-width: 15vw;
+    overflow-y: scroll;
+    background-color: rgb(18, 18, 18);
+}
+
+.products_wrapper::-webkit-scrollbar {
+    width: 10px;
+}
+
+.products_wrapper::-webkit-scrollbar-thumb {
+    background: #555; 
+}
+
+.products_wrapper::-webkit-scrollbar-thumb:hover {
+    background: #393939; 
+}
+
+.main{
+    height: 100vh;
+    min-width: 70vw;
+}
+
+.comments_wrapper{
+    height: 100vh;
+    min-width: 15vw;
+    background-color: rgb(18, 18, 18);
+}
+
+.list_comments{
+    position: relative;
+    height: 75%;
+    overflow-y: scroll;
+}
+
+.list_comments::-webkit-scrollbar {
+    width: 10px;
+}
+
+.list_comments::-webkit-scrollbar-thumb {
+    background: #555; 
+}
+
+.list_comments::-webkit-scrollbar-thumb:hover {
+    background: #393939; 
+}
+
+.input_comment{
+    position: relative;
+    height: 25%;
+    border-top: 1px solid white;
+}
