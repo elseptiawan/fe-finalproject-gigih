@@ -9,18 +9,23 @@
     margin-bottom: 30px;
     cursor: pointer;
     border: 2px solid white;
+    border-radius: 7px;
 }
 
-img{
+.thumbnail img{
     position: relative;
     z-index: 1;
     width: 100%;
     height: 100%;
-    border-radius: 10px;
+    border-radius: 7px;
 }
 
-img:hover{
-    border-radius: 0;
+.thumbnail:hover{
+    border-radius: 0px;
+}
+
+.thumbnail img:hover{
+    border-radius: 0px;
 }
 
 .judul{
