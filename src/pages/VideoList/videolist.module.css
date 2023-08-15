@@ -1,15 +1,54 @@
 body{
     background-color: rgb(26, 25, 25);
 }
-.title{
+
+.header{
     margin: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+
+.right{
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.right img{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.header input{
+    color: white;
+    background-color: #393939;
+    border-radius: 7px;
+    padding: 0px 10px;
+    height: 30px;
+}
+
+.title{
+    margin: 0px 20px;
     color: white;
 }
 
 .thumbnail_wrapper{
     margin: 5px 20px;
     padding: 5px;
-    justify-content: space-between;
+    justify-content: space-around;
     display: flex;
     flex-wrap: wrap;
+}
+
+.error{
+    color: white;
 }
