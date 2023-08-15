@@ -49,6 +49,17 @@
     color: white;
 }
 
+.back_button{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+}
+
+.back_butto a{
+    color: white;
+}
+
 .right img{
     height: 25px;
     width: 25px;
