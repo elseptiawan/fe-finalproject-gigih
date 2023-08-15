@@ -1,0 +1,20 @@
+.product{
+    position: relative;
+    width: 80%;
+    margin-bottom: 10px;
+}
+.product img{
+    position: relative;
+    width: 100%;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.product img:hover{
+    border-radius: 0;
+}
+
+.title{
+    color: white;
+    font-size: 14px;
+}
